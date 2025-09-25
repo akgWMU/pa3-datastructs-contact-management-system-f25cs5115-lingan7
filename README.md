@@ -23,10 +23,12 @@ This project implements and compares the performance of four different data stru
 contact-management-system/
 ├── contact_management_system.py # Main implementation file
 ├── README.md                   # This documentation
-├── requirements.txt            # Python dependencies
+├── gitignore.txt               # Python dependencies
 ├── performance_results.csv     # Generated test results
+├── analysis_visualization.py  # Generate Analysis & visualization file
 ├── performance_comparison.png  # Generated visualizations
-└── report_template.md         # Template for your analysis report
+└── MyThoughts.md               # My handwritten understanding
+
 ```
 
 ## 📊 Features
@@ -109,42 +111,6 @@ Use the provided `report_template.md` to write a 2-3 page analysis covering:
 - Analysis of scaling behavior
 - Identification of performance bottlenecks
 
-## 🔧 Customization Options
-
-### Adding More Data Structures
-You can extend the comparison by implementing additional structures:
-
-```python
-# Example: Add a Trie for prefix-based searching
-class TrieContacts(ContactManager):
-    # Implementation here
-    pass
-
-# Add to structures dictionary in PerformanceTester
-self.structures['Trie'] = TrieContacts
-```
-
-### Modifying Test Parameters
-Adjust test parameters in the `main()` function:
-
-```python
-# Change data sizes
-data_sizes = [50, 500, 2500, 15000]
-
-# Modify number of trials for more/less precision
-tester.test_operations(data_sizes, trials=5)
-```
-
-### Custom Contact Fields
-Extend the Contact class for more complex scenarios:
-
-```python
-class ExtendedContact(Contact):
-    def __init__(self, name, phone, email, address=None, company=None):
-        super().__init__(name, phone, email)
-        self.address = address
-        self.company = company
-```
 
 ## 🎨 Visualization Features
 
@@ -153,25 +119,6 @@ The program automatically generates:
 - Logarithmic scaling for operations with wide performance ranges
 - Error bars showing measurement uncertainty
 - Professional styling with clear legends and labels
-
-## 🐛 Troubleshooting
-
-### Common Issues
-
-1. **Import Errors**: Ensure all dependencies are installed
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-2. **Memory Issues**: Reduce dataset sizes for testing on limited systems
-   ```python
-   data_sizes = [100, 500, 1000]  # Smaller sizes
-   ```
-
-3. **Slow Performance**: Reduce number of trials
-   ```python
-   tester.test_operations(data_sizes, trials=1)
-   ```
 
 ### Performance Notes
 
