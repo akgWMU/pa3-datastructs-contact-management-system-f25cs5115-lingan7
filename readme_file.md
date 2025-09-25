@@ -219,12 +219,3 @@ This is an educational project. Focus on:
 - Drawing meaningful conclusions
 - Writing clear, professional reports
 
-## 📄 License
-
-This project is created for educational purposes as part of a data structures and algorithms course.
-
----
-
-**Due Date**: [Insert due date here]  
-**Submission**: Upload completed code and report to GitHub Classroom  
-**Questions**: Contact instructor or use course discussion forum
