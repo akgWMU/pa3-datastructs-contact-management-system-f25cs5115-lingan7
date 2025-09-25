@@ -21,37 +21,12 @@ This project implements and compares the performance of four different data stru
 
 ```
 contact-management-system/
-├── contact_manager.py          # Main implementation file
+├── contact_management_system.py # Main implementation file
 ├── README.md                   # This documentation
 ├── requirements.txt            # Python dependencies
 ├── performance_results.csv     # Generated test results
 ├── performance_comparison.png  # Generated visualizations
 └── report_template.md         # Template for your analysis report
-```
-
-## 🚀 Getting Started
-
-### Prerequisites
-
-- Python 3.8 or higher
-- pip (Python package installer)
-
-### Installation
-
-1. Clone this repository:
-```bash
-git clone <repository-url>
-cd contact-management-system
-```
-
-2. Install required dependencies:
-```bash
-pip install -r requirements.txt
-```
-
-3. Run the complete performance analysis:
-```bash
-python contact_manager.py
 ```
 
 ## 📊 Features
@@ -204,18 +179,4 @@ The program automatically generates:
 - Hash map performance assumes good hash function and load factor
 - Large datasets may require significant memory and processing time
 
-## 📚 Additional Resources
-
-- [Big O Notation Explained](https://www.bigocheatsheet.com/)
-- [Python Data Structures Documentation](https://docs.python.org/3/tutorial/datastructures.html)
-- [Time Complexity Analysis](https://en.wikipedia.org/wiki/Time_complexity)
-- [Matplotlib Documentation](https://matplotlib.org/stable/contents.html)
-
-## 🤝 Contributing
-
-This is an educational project. Focus on:
-- Understanding the implementations
-- Analyzing the results
-- Drawing meaningful conclusions
-- Writing clear, professional reports
 
