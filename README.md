@@ -1,5 +1,7 @@
 # Contact Management System - Data Structure Performance Comparison
 
+Code Execution link - https://colab.research.google.com/drive/1uT-ekyeS9uOck6MY4uD4HgX-dt1zWW6_?usp=sharing
+
 ## 📋 Assignment Overview
 
 This project implements and compares the performance of four different data structures in the context of a contact management system:
@@ -9,7 +11,7 @@ This project implements and compares the performance of four different data stru
 3. **Hash Map** - Dictionary-based key-value storage
 4. **Binary Search Tree (BST)** - Tree-based sorted structure
 
-## 🎯 Learning Objectives
+##  Learning Objectives
 
 - Understand the trade-offs between different data structures
 - Analyze theoretical vs. empirical time complexity
@@ -17,7 +19,7 @@ This project implements and compares the performance of four different data stru
 - Practice implementing fundamental data structures
 - Gain experience with real-world performance testing
 
-## 🏗️ Project Structure
+##  Project Structure
 
 ```
 contact-management-system/
@@ -31,7 +33,7 @@ contact-management-system/
 
 ```
 
-## 📊 Features
+##  Features
 
 ### Data Structures Implemented
 
@@ -58,7 +60,7 @@ contact-management-system/
 - **Statistical Analysis**: Multiple trials with mean and spread calculations
 - **Memory Efficiency**: Implicit through data structure design
 
-## 🧪 Running Tests
+##  Running Tests
 
 ### Complete Performance Analysis
 ```bash
@@ -89,30 +91,30 @@ Based on theoretical analysis, you should observe:
 
 ## 📝 Assignment Deliverables
 
-### 1. Code Implementation ✅
+### 1. Code Implementation 
 - Complete implementation of all four data structures
 - Proper error handling and edge case management
 - Clean, well-documented code with type hints
 
-### 2. Performance Analysis 📊
+### 2. Performance Analysis 
 - Run performance tests with provided datasets
 - Generate and analyze visualization graphs
 - Document empirical results vs. theoretical expectations
 
-### 3. Written Report 📄
+### 3. Written Report 
 Use the provided `report_template.md` to write a 2-3 page analysis covering:
 - Design decisions and implementation details
 - Performance comparison and analysis
 - Real-world application implications
 - Conclusions and recommendations
 
-### 4. Visualizations 📈
+### 4. Visualizations 
 - Performance comparison graphs (automatically generated)
 - Analysis of scaling behavior
 - Identification of performance bottlenecks
 
 
-## 🎨 Visualization Features
+##  Visualization Features
 
 The program automatically generates:
 - Line plots showing performance scaling
