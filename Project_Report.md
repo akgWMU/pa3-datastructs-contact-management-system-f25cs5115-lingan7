@@ -214,33 +214,3 @@ With 3 trials per test, confidence intervals were generally within 10% of mean v
 2. Python Software Foundation. "Python 3.11 Documentation"  
 3. Knuth, D. E. "The Art of Computer Programming, Volume 3: Sorting and Searching"
 4. Course Lecture Notes - CS 201, Data Structures and Algorithms
-
-## Appendices
-
-### Appendix A: Code Modifications
-No modifications were made to the provided implementation to ensure fair comparison.
-
-### Appendix B: Raw Performance Data Sample
-```
-Testing with 10,000 contacts:
-Array: Insert=6.123ms, Search=0.257ms, Delete=1.568ms, Update=0.260ms
-LinkedList: Insert=4.567ms, Search=0.223ms, Delete=0.923ms, Update=0.227ms  
-HashMap: Insert=6.891ms, Search=0.001ms, Delete=0.002ms, Update=0.001ms
-BST: Insert=19.456ms, Search=0.007ms, Delete=0.045ms, Update=0.007ms
-```
-
-### Appendix C: Performance Analysis Commands
-```bash
-python contact_manager.py  # Complete analysis
-# Generated: performance_results.csv, performance_comparison.png
-```
-
----
-
-**Word Count**: 1,847 words  
-**Submission Checklist**:
-- [x] Complete code implementation  
-- [x] Performance results CSV file
-- [x] Generated visualization graphs
-- [x] This completed report
-- [x] All files uploaded to GitHub Classroom
